@@ -10,11 +10,11 @@ interface AnswerBubblesProps {
 }
 
 const bubblePositions = [
-  'top-4 left-1/2 -translate-x-1/2',
-  'bottom-4 left-8',
-  'bottom-4 right-8',
-  'top-1/2 left-4 -translate-y-1/2',
-  'top-1/2 right-4 -translate-y-1/2',
+  'top-20 left-1/2 -translate-x-1/2',
+  'top-1/3 left-8',
+  'top-1/3 right-8',
+  'bottom-32 left-1/4',
+  'bottom-32 right-1/4',
 ];
 
 export function AnswerBubbles({ pet, onAnswer, onClose }: AnswerBubblesProps) {
